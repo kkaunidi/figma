@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Фрегат - Пневмокаркасные модули</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Calibri', 'Inter', Arial, sans-serif;
+            background: #F5F5F5;
+            max-width: 1024px;
+            margin: 0 auto;
+            color: #000;
+        }
+
+        /* Hero Section */
+        .hero {
+            position: relative;
+            width: 1024px;
+            height: 768px;
+            overflow: hidden;
+        }
+
+        .hero img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+
+        .logo {
+            position: absolute;
+            top: 34px;
+            left: 28px;
+            width: 404px;
+            height: 184px;
+        }
+
+        .logo img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+
+        /* CTA Buttons */
+        .btn-catalog {
+            display: block;
+            width: 853px;
+            margin: 0 auto;
+            padding: 18px 30px;
+            background: #003380;
+            color: #fff;
+            font-family: 'Calibri', sans-serif;
+            font-size: 32px;
+            font-weight: 700;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 20px;
+            cursor: pointer;
+            border: 2px solid #fff;
+        }
+
+        .btn-catalog-2 {
+            width: 720px;
+            margin: 0 auto;
+            display: block;
+            padding: 18px 30px;
+            background: #003380;
+            color: #fff;
+            font-family: 'Calibri', sans-serif;
+            font-size: 32px;
+            font-weight: 700;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 20px;
+            cursor: pointer;
+            border: none;
+        }
+
+        .btn-top {
+
+            margin-top: -90px;
+            margin-bottom: 0;
+            margin-left: 30px;
+            position: absolute;
+        }
+
+        .btn-bottom {
+            margin-top: 30px;
+            margin-bottom: 20px;
+        }
+
+        /* Benefits Section */
+        .benefits {
+            padding: 40px 37px 0;
+            background: #fff;
+        }
+
+        .benefits-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            gap: 40px;
+        }
+
+        .benefits-left {
+            flex: 1;
+        }
+
+        .benefits-right {
+            flex: 1;
+        }
+
+        .section-title {
+            font-family: 'Calibri', sans-serif;
+            font-size: 20px;
+            font-weight: 700;
+            color: #003380;
+            margin-bottom: 20px;
+        }
+
+        .benefit-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .benefit-list li {
+            font-family: 'Inter', sans-serif;
+            font-size: 20px;
+            font-weight: 300;
+            line-height: 25px;
+            margin-bottom: 15px;
+            padding-left: 30px;
+            position: relative;
+        }
+
+        .benefit-list li::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 4px;
+            width: 22px;
+            height: 22px;
+            background: url('images-out/bullet-icon.png') center/contain no-repeat;
+        }
+
+        .multi-func-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .multi-func-list li {
+            font-family: 'Calibri', sans-serif;
+            font-size: 20px;
+            font-weight: 300;
+            line-height: 25px;
+            margin-bottom: 12px;
+            padding-left: 40px;
+            position: relative;
+        }
+
+        .multi-func-list li::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 4px;
+            width: 32px;
+            height: 18px;
+            background: url('images-out/multi-func-icon.png') center/contain no-repeat;
+        }
+
+        /* Product Cards */
+        .product-cards {
+            margin-top: 30px;
+            display: flex;
+            gap: 0;
+            border-top: 1px solid #003380;
+            border-bottom: 1px solid #003380;
+        }
+
+        .product-card {
+            flex: 1;
+            padding: 15px;
+            text-align: center;
+            position: relative;
+        }
+
+        .product-card:not(:last-child)::after {
+            content: '';
+            position: absolute;
+            right: 0;
+            top: 15px;
+            bottom: 15px;
+            width: 1px;
+            background: #003380;
+        }
+
+        .product-card-image {
+            width: 152px;
+            height: 114px;
+            margin: 0 auto 10px;
+            overflow: hidden;
+        }
+
+        .product-card-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .product-card-title {
+            font-family: 'Calibri', sans-serif;
+            font-size: 14px;
+            color: #003380;
+            margin-bottom: 10px;
+            min-height: 28px;
+        }
+
+        .product-card-specs {
+            font-family: 'Inter', sans-serif;
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 13px;
+            color: #000;
+            margin-bottom: 12px;
+            text-align: left;
+        }
+
+        .product-card-price {
+            font-family: 'Calibri', sans-serif;
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 13px;
+            color: #000;
+            padding: 8px;
+            background: #fff;
+        }
+
+        .price-section {
+            border-bottom: 1px solid #003380;
+            display: flex;
+            gap: 0;
+        }
+
+        .price-box {
+            flex: 1;
+            padding: 10px;
+            text-align: center;
+            position: relative;
+        }
+
+        .price-box:not(:last-child)::after {
+            content: '';
+            position: absolute;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            width: 1px;
+            background: #003380;
+        }
+
+        /* Operating Conditions */
+        .conditions {
+            margin-top: 30px;
+            text-align: left;
+        }
+
+        .conditions-title {
+            font-family: 'Inter', sans-serif;
+            font-size: 24px;
+            font-weight: 300;
+            color: #000;
+            margin-bottom: 25px;
+        }
+
+        .conditions-grid {
+            display: flex;
+            justify-content: space-between;
+            gap: 15px;
+        }
+
+        .condition-item {
+            text-align: center;
+            flex: 1;
+        }
+
+        .condition-item img {
+            width: auto;
+            height: 86px;
+            margin: 0 auto 10px;
+            display: block;
+        }
+
+        .condition-name {
+            font-family: 'Calibri', sans-serif;
+            font-size: 20px;
+            font-weight: 300;
+            color: #000;
+            margin-bottom: 8px;
+        }
+
+        .condition-value {
+            font-family: 'Calibri', sans-serif;
+            font-size: 14px;
+            font-weight: 300;
+            color: #000;
+            line-height: 14px;
+        }
+
+        /* Product Image Section */
+        .product-showcase {
+            width: 949px;
+            margin: 10px auto;
+        }
+
+        .product-showcase img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        /* Contact Section */
+        .contact {
+            padding: 20px 38px 30px;
+            font-family: 'Calibri', sans-serif;
+            font-size: 21px;
+            line-height: 40px;
+            color: #003380;
+        }
+
+        .contact a {
+            color: #003380;
+            text-decoration: none;
+        }
+
+        .contact strong {
+            font-weight: 700;
+        }
+
+        /* Responsive */
+        @media (max-width: 1024px) {
+            body {
+                max-width: 100%;
+            }
+
+            .hero {
+                width: 100%;
+                height: auto;
+            }
+
+            .hero img {
+                width: 100%;
+                height: auto;
+            }
+
+            .btn-catalog {
+                width: calc(100% - 80px);
+                font-size: 24px;
+            }
+
+            .btn-catalog-2 {
+                width: 80%;
+                font-size: 24px;
+            }
+
+            .product-showcase {
+                width: calc(100% - 40px);
+            }
+
+            .benefits-header {
+                flex-direction: column;
+            }
+
+            .product-cards {
+                flex-direction: column;
+            }
+
+            .conditions-grid {
+                flex-wrap: wrap;
+            }
+
+            .condition-item {
+                flex: 0 0 33%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Hero Section -->
+    <div class="hero">
+        <img src="images-out/hero-banner.png" alt="Фрегат - Пневмокаркасные модули">
+        <div class="logo">
+            <img src="images-out/logo.png" alt="Логотип Фрегат">
+        </div>
+    </div>
+
+    <!-- CTA Button Top -->
+    <a href="#" class="btn-catalog btn-top">
+        ПЕРЕЙТИ В КАТАЛОГ ПНЕВМОКАРКАСНЫХ МОДУЛЕЙ
+    </a>
+
+    <!-- Benefits Section -->
+    <div class="benefits">
+        <div class="benefits-header">
+            <div class="benefits-left">
+                <div class="section-title">ПРЕИМУЩЕСТВА</div>
+                <ul class="benefit-list">
+                    <li>Максимальное время монтажа 5-10 минут силами 2-4 человек</li>
+                    <li>Один модуль на круглый год: в нем комфортно в любых погодных условиях от -40°C до +50°C</li>
+                    <li>Компактность при хранении и транспортировке между спортивными объектами и площадками. Широкий выбор размеров и вместимости под задачи мероприятия</li>
+                    <li>Гарантия напрямую от производителя - 12 месяцев</li>
+                </ul>
+            </div>
+            <div class="benefits-right">
+                <div class="section-title">МНОГОФУНКЦИОНАЛЬНОСТЬ</div>
+                <ul class="multi-func-list">
+                    <li>Пункты обогрева для участников и зрителей</li>
+                    <li>Раздевалки и помещения для переодевания спортсменов</li>
+                    <li>Судейские и штабы соревнований</li>
+                    <li>Медицинские пункты на трассах и спортивных площадках</li>
+                    <li>Помещения для хранения спортивного инвентаря и оборудования</li>
+                    <li>Временные помещения для персонала спортивных баз и лагерей</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Product Cards -->
+        <div class="product-cards">
+            <div class="product-card">
+                <div class="product-card-image">
+                    <img src="images-out/card1.png" alt="Модуль обогрева">
+                </div>
+                <div class="product-card-title">Модуль для обогрева участников и зрителей: Фрегат ПКП Ф-14</div>
+                <div class="product-card-specs">
+                    Габариты: 3,5 х 4 х 3 м<br>
+                    Площадь общая: 14 м²<br>
+                    • 6-8 человек в рабочем формате;<br>
+                    • 2-4 человек для проживания.
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-card-image">
+                    <img src="images-out/card2.png" alt="Модуль раздевалки">
+                </div>
+                <div class="product-card-title">Модуль для раздевалки спортсменов Фрегат ПКП Ф-29</div>
+                <div class="product-card-specs">
+                    Габариты: 6 х 4,9 х 2,9 м<br>
+                    Площадь общая: 29,4 м²<br>
+                    • до 20 человек в рабочем формате;<br>
+                    • 6-16 человек для проживания.
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-card-image">
+                    <img src="images-out/card3.png" alt="Модуль судейской">
+                </div>
+                <div class="product-card-title">Модуль для размещения судейской коллегии Фрегат ПКП Ф-54</div>
+                <div class="product-card-specs">
+                    Габариты: 9 х 6 х 3,2 м<br>
+                    Площадь общая: 54,0 м²<br>
+                    • до 35-50 человек в рабочем формате;<br>
+                    • до 32 человек для проживания.
+                </div>
+            </div>
+        </div>
+
+        <!-- Prices -->
+        <div class="price-section">
+            <div class="price-box">
+                <div class="product-card-price">
+                    от 177 400 руб. (базовая с электронасосом)<br>
+                    до 321 000 руб. (утепленная)
+                </div>
+            </div>
+            <div class="price-box">
+                <div class="product-card-price">
+                    от 281 100 руб. (базовая с электронасосом)<br>
+                    до 475 000 руб. (с утеплением)
+                </div>
+            </div>
+            <div class="price-box">
+                <div class="product-card-price">
+                    от 529 500 руб. (базовая с электронасосом)<br>
+                    до 776 000 руб. (утепленная)
+                </div>
+            </div>
+        </div>
+
+        <!-- Operating Conditions -->
+        <div class="conditions">
+            <div class="conditions-title">УСЛОВИЯ ЭКСПЛУАТАЦИИ пневмокаркасных модулей Фрегат</div>
+            <div class="conditions-grid">
+                <div class="condition-item">
+                    <img src="images-out/temp-icon.png" alt="Температура">
+                    <div class="condition-name">температурный<br>режим</div>
+                    <div class="condition-value">от -40°C до +50°C</div>
+                </div>
+                <div class="condition-item">
+                    <img src="images-out/wind-icon.png" alt="Ветер">
+                    <div class="condition-name">скорость<br>ветра</div>
+                    <div class="condition-value">до 25 м/с (без пыли),<br>до 20 м/с,<br>при пылевой насыщенности 5 гр./м³</div>
+                </div>
+                <div class="condition-item">
+                    <img src="images-out/snow-icon.png" alt="Снег">
+                    <div class="condition-name">снеговые<br>нагрузки</div>
+                    <div class="condition-value">до 25 кг/м²</div>
+                </div>
+                <div class="condition-item">
+                    <img src="images-out/rain-icon.png" alt="Дождь">
+                    <div class="condition-name">дождь</div>
+                    <div class="condition-value">интенсивностью<br>до 5 мм/мин</div>
+                </div>
+                <div class="condition-item">
+                    <img src="images-out/pressure-icon.png" alt="Давление">
+                    <div class="condition-name">атмосферное<br>давление</div>
+                    <div class="condition-value">до 3000 м<br>над уровнем моря</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- CTA Button Bottom -->
+    <div style="padding: 10px 0 0;">
+        <a href="#" class="btn-catalog-2">
+            КАТАЛОГ ПНЕВМОКАРКАСНЫХ МОДУЛЕЙ
+        </a>
+    </div>
+
+    <!-- Product Showcase -->
+    <div class="product-showcase">
+        <img src="images-out/product-image.png" alt="Пневмокаркасные модули Фрегат">
+    </div>
+
+    <!-- Contact -->
+    <div class="contact">
+        Чтобы сделать заказ, <strong>ПОЗВОНИТЕ</strong> по тел. <a href="tel:+78126678678">+7 (812) 667-8-678</a> или <strong>НАПИШИТЕ</strong> на <a href="mailto:modul@fregat-boats.ru">modul@fregat-boats.ru</a>
+    </div>
+</body>
+</html>

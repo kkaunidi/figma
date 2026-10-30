@@ -1,0 +1,1128 @@
+﻿================================================================================
+FIGMA DESIGN STRUCTURE REPORT
+================================================================================
+File: BcpXHp4DuyNPZ6ENJ7cQYF
+Canvas: баннеры (id: 71:2, type: CANVAS)
+Background: @{r=0.96078431606292725; g=0.96078431606292725; b=0.96078431606292725; a=1.0}
+Generated: 10/30/2026 18:48:13
+
+
+--------------------------------------------------------------------------------
+ID: 164:2110
+Name: mail-sport
+Type: FRAME
+Position: x=0.0, y=0.0, width=1024.0, height=2297.0
+Constraints: horizontal=LEFT, vertical=TOP
+Fills (1):
+    Type: SOLID, Visible: , Color: rgb(255,255,255), alpha=100%
+BlendMode: PASS_THROUGH
+Children: 7
+
+  --------------------------------------------------------------------------------
+  ID: 164:2111
+  Name: sport-pkp
+  Type: RECTANGLE
+  Position: x=0.0, y=0.0, width=1024.0, height=768.0
+  Constraints: horizontal=LEFT, vertical=TOP
+  Fills (1):
+      Type: IMAGE, Visible: , imageRef: 9b4e2e7a465cef204e6f984bde41b6ce79486253
+  BlendMode: PASS_THROUGH
+
+  --------------------------------------------------------------------------------
+  ID: 164:2112
+  Name: logo
+  Type: RECTANGLE
+  Position: x=28.0, y=34.0, width=404.0, height=184.0
+  Constraints: horizontal=LEFT, vertical=TOP
+  Fills (1):
+      Type: IMAGE, Visible: , imageRef: 523412a33f68b3312f09dc632d627944cf5fb1d9
+  BlendMode: PASS_THROUGH
+
+  --------------------------------------------------------------------------------
+  ID: 164:2113
+  Name: benefit
+  Type: GROUP
+  Position: x=37.0, y=787.0, width=940.0, height=879.0
+  Constraints: horizontal=LEFT, vertical=TOP
+  BlendMode: PASS_THROUGH
+  Children: 20
+
+    --------------------------------------------------------------------------------
+    ID: 164:2114
+    Name: 9N9A9344 2
+    Type: RECTANGLE
+    Position: x=186.0, y=1173.0, width=168.0, height=114.0
+    Constraints: horizontal=LEFT, vertical=TOP
+    Fills (1):
+        Type: IMAGE, Visible: , imageRef: 0ad41b5bafef463387f7230dc75172830e34b675
+    BlendMode: PASS_THROUGH
+
+    --------------------------------------------------------------------------------
+    ID: 164:2115
+    Name: ПРЕИМУЩЕСТВА
+    Type: TEXT
+    Position: x=47.0, y=787.0, width=182.69564819335938, height=25.351144790649414
+    Constraints: horizontal=LEFT, vertical=TOP
+    Fills (1):
+        Type: SOLID, Visible: , Color: rgb(0,51,128), alpha=100%
+    BlendMode: PASS_THROUGH
+    Characters: ПРЕИМУЩЕСТВА
+    Style:
+        fontFamily: Calibri
+        fontSize: 20.0
+        fontWeight: 700
+        textAlignHorizontal: LEFT
+        textAlignVertical: TOP
+        lineHeightPx: 24.41406250
+        lineHeightPercent: 100.0
+        letterSpacing: 0.0
+        textCase: 
+
+    --------------------------------------------------------------------------------
+    ID: 164:2116
+    Name: САМЫЕ ПОПУЛЯРНЫЕ МОДУЛИ ДЛЯ СПОРТИВНЫХ МЕРОПРИЯТИЙ В ЗИМНИЙ СЕЗОН
+    Type: TEXT
+    Position: x=39.0, y=1104.0, width=930.08697509765625, height=28.167940139770508
+    Constraints: horizontal=LEFT, vertical=TOP
+    Fills (1):
+        Type: SOLID, Visible: , Color: rgb(0,51,128), alpha=100%
+    BlendMode: PASS_THROUGH
+    Characters: САМЫЕ ПОПУЛЯРНЫЕ МОДУЛИ ДЛЯ СПОРТИВНЫХ МЕРОПРИЯТИЙ В ЗИМНИЙ СЕЗОН
+    Style:
+        fontFamily: Calibri
+        fontSize: 20.0
+        fontWeight: 700
+        textAlignHorizontal: LEFT
+        textAlignVertical: TOP
+        lineHeightPx: 24.41406250
+        lineHeightPercent: 100.0
+        letterSpacing: 0.0
+        textCase: 
+
+    --------------------------------------------------------------------------------
+    ID: 164:2117
+    Name: МНОГОФУНКЦИОНАЛЬНОСТЬ
+    Type: TEXT
+    Position: x=559.0, y=787.0, width=388.64346313476562, height=28.167940139770508
+    Constraints: horizontal=LEFT, vertical=TOP
+    Fills (1):
+        Type: SOLID, Visible: , Color: rgb(0,51,128), alpha=100%
+    BlendMode: PASS_THROUGH
+    Characters: МНОГОФУНКЦИОНАЛЬНОСТЬ
+    Style:
+        fontFamily: Calibri
+        fontSize: 20.0
+        fontWeight: 700
+        textAlignHorizontal: LEFT
+        textAlignVertical: TOP
+        lineHeightPx: 24.41406250
+        lineHeightPercent: 100.0
+        letterSpacing: 0.0
+        textCase: 
+
+    --------------------------------------------------------------------------------
+    ID: 164:2118
+    Name: Пункты обогрева для участников и зрителей Раздевалки и помещения для переодевания спортсменов Судейские и штабы соревнований Медицинские пункты на трассах и спортивных площадках Помещения для хранения спортивного инвентаря и оборудования Временные помещения для персонала спортивных баз и лагерей
+    Type: TEXT
+    Position: x=578.4436035156250, y=822.8015136718750, width=370.37393188476562, height=253.51144409179688
+    Constraints: horizontal=LEFT, vertical=TOP
+    Fills (1):
+        Type: SOLID, Visible: , Color: rgb(0,0,0), alpha=100%
+    BlendMode: PASS_THROUGH
+    Characters: Пункты обогрева для участников и зрителей
+Раздевалки и помещения для переодевания спортсменов
+Судейские и штабы соревнований
+Медицинские пункты на трассах и спортивных площадках
+Помещения для хранения спортивного инвентаря и оборудования
+Временные помещения для персонала спортивных баз и лагерей
+    Style:
+        fontFamily: Calibri
+        fontSize: 20.0
+        fontWeight: 400
+        textAlignHorizontal: LEFT
+        textAlignVertical: TOP
+        lineHeightPx: 25.0
+        lineHeightPercent: 102.40000152587891
+        letterSpacing: 0.0
+        textCase: 
+
+    --------------------------------------------------------------------------------
+    ID: 164:2119
+    Name: УСЛОВИЯ ЭКСПЛУАТАЦИИ пневмокаркасных модулей Фрегат
+    Type: TEXT
+    Position: x=52.0, y=1430.0, width=645.0, height=23.0
+    Constraints: horizontal=LEFT, vertical=TOP
+    Fills (1):
+        Type: SOLID, Visible: , Color: rgb(0,0,0), alpha=100%
+    BlendMode: PASS_THROUGH
+    Characters: УСЛОВИЯ ЭКСПЛУАТАЦИИ пневмокаркасных модулей Фрегат
+    Style:
+        fontFamily: Inter
+        fontSize: 24.0
+        fontWeight: 300
+        textAlignHorizontal: LEFT
+        textAlignVertical: TOP
+        lineHeightPx: 29.045454025268555
+        lineHeightPercent: 100.0
+        letterSpacing: 0.0
+        textCase: 
+    CharacterStyleOverrides: 51 overrides
+
+    --------------------------------------------------------------------------------
+    ID: 164:2120
+    Name: Group 9
+    Type: GROUP
+    Position: x=40.321514129638672, y=822.8015136718750, width=672.48742675781250, height=659.3244628906250
+    Constraints: horizontal=LEFT, vertical=TOP
+    BlendMode: PASS_THROUGH
+    Children: 1
+
+      --------------------------------------------------------------------------------
+      ID: 164:2121
+      Name: Group 8
+      Type: GROUP
+      Position: x=40.321617126464844, y=822.80163574218750, width=672.48742675781250, height=659.3244628906250
+      Constraints: horizontal=LEFT, vertical=TOP
+      BlendMode: PASS_THROUGH
+      Children: 6
+
+        --------------------------------------------------------------------------------
+        ID: 164:2122
+        Name: image 43
+        Type: RECTANGLE
+        Position: x=40.321720123291016, y=822.80175781250, width=22.663406372070312, height=21.678041458129883
+        Constraints: horizontal=LEFT, vertical=TOP
+        Fills (1):
+            Type: IMAGE, Visible: , imageRef: eea9b00f93abbbc14ec3c0c03d583c8fafb99a56
+        BlendMode: PASS_THROUGH
+
+        --------------------------------------------------------------------------------
+        ID: 164:2123
+        Name: image 62
+        Type: RECTANGLE
+        Position: x=41.000328063964844, y=874.00012207031250, width=22.663406372070312, height=21.678041458129883
+        Constraints: horizontal=LEFT, vertical=TOP
+        Fills (1):
+            Type: IMAGE, Visible: , imageRef: eea9b00f93abbbc14ec3c0c03d583c8fafb99a56
+        BlendMode: PASS_THROUGH
+
+        --------------------------------------------------------------------------------
+        ID: 164:2124
+        Name: image 63
+        Type: RECTANGLE
+        Position: x=41.000328063964844, y=923.00012207031250, width=22.663406372070312, height=21.678041458129883
+        Constraints: horizontal=LEFT, vertical=TOP
+        Fills (1):
+            Type: IMAGE, Visible: , imageRef: eea9b00f93abbbc14ec3c0c03d583c8fafb99a56
+        BlendMode: PASS_THROUGH
+
+        --------------------------------------------------------------------------------
+        ID: 164:2125
+        Name: image 66
+        Type: RECTANGLE
+        Position: x=41.000328063964844, y=1019.0001220703125, width=22.663406372070312, height=21.678041458129883
+        Constraints: horizontal=LEFT, vertical=TOP
+        Fills (1):
+            Type: IMAGE, Visible: , imageRef: eea9b00f93abbbc14ec3c0c03d583c8fafb99a56
+        BlendMode: PASS_THROUGH
+
+        --------------------------------------------------------------------------------
+        ID: 164:2126
+        Name: дождь
+        Type: TEXT
+        Position: x=658.00030517578125, y=1461.0001220703125, width=54.808696746826172, height=21.125953674316406
+        Constraints: horizontal=LEFT, vertical=TOP
+        Fills (1):
+            Type: SOLID, Visible: , Color: rgb(0,0,0), alpha=100%
+        BlendMode: PASS_THROUGH
+        Characters: дождь
+        Style:
+            fontFamily: Calibri
+            fontSize: 20.0
+            fontWeight: 300
+            textAlignHorizontal: LEFT
+            textAlignVertical: TOP
+            lineHeightPx: 24.41406250
+            lineHeightPercent: 100.0
+            letterSpacing: 0.0
+            textCase: 
+
+        --------------------------------------------------------------------------------
+        ID: 164:2127
+        Name: image 65
+        Type: RECTANGLE
+        Position: x=41.000328063964844, y=976.00012207031250, width=22.663406372070312, height=21.678041458129883
+        Constraints: horizontal=LEFT, vertical=TOP
+        Fills (1):
+            Type: IMAGE, Visible: , imageRef: eea9b00f93abbbc14ec3c0c03d583c8fafb99a56
+        BlendMode: PASS_THROUGH
+
+    --------------------------------------------------------------------------------
+    ID: 164:2128
+    Name: Group 10
+    Type: GROUP
+    Position: x=61.913604736328125, y=822.8015136718750, width=441.79129028320312, height=271.82061767578125
+    Constraints: horizontal=LEFT, vertical=TOP
+    RectangleCornerRadii: TL=0.0, TR=0.0, BR=0.0, BL=0.0
+    BlendMode: PASS_THROUGH
+    Children: 1
+
+      --------------------------------------------------------------------------------
+      ID: 164:2129
+      Name: Максимальное время монтажа 5-10 минут силами 2-4 человек Один модуль на круглый год: в нем комфортно в любых погодных условиях от -40°C до +50°C Компактность при хранении и транспортировке между спортивными объектами и площадками. Широкий выбор размеров и вместимости под задачи мероприятия Гарантия напрямую от производителя - 12 месяцев    
+      Type: TEXT
+      Position: x=61.913604736328125, y=822.8015136718750, width=441.79129028320312, height=271.82061767578125
+      Constraints: horizontal=LEFT, vertical=TOP
+      Fills (1):
+          Type: SOLID, Visible: , Color: rgb(0,0,0), alpha=100%
+      BlendMode: PASS_THROUGH
+      Characters: Максимальное время монтажа 5-10 минут силами 2-4 человек Один модуль на круглый год: в нем комфортно в любых погодных условиях от -40°C до +50°C Компактность при хранении и транспортировке между спортивными объектами и площадками.
+Широкий выбор размеров и вместимости под задачи мероприятия Гарантия напрямую от производителя - 12 месяцев
+    
+      Style:
+          fontFamily: Inter
+          fontSize: 20.0
+          fontWeight: 300
+          textAlignHorizontal: LEFT
+          textAlignVertical: TOP
+          lineHeightPx: 25.0
+          lineHeightPercent: 103.28638458251953
+          letterSpacing: 0.0
+          textCase: 
+      CharacterStyleOverrides: 343 overrides
+
+    --------------------------------------------------------------------------------
+    ID: 164:2130
+    Name: Group 13
+    Type: GROUP
+    Position: x=37.0, y=1134.0, width=940.0, height=279.566894531250
+    Constraints: horizontal=LEFT, vertical=TOP
+    BlendMode: PASS_THROUGH
+    Children: 8
+
+      --------------------------------------------------------------------------------
+      ID: 164:2131
+      Name: Group 11
+      Type: GROUP
+      Position: x=37.0, y=1134.0, width=940.0, height=248.50381469726562
+      Constraints: horizontal=LEFT, vertical=TOP
+      BlendMode: PASS_THROUGH
+      Children: 12
+
+        --------------------------------------------------------------------------------
+        ID: 164:2132
+        Name: image 55
+        Type: RECTANGLE
+        Position: x=513.1379394531250, y=1168.979003906250, width=142.23721313476562, height=94.824813842773438
+        Constraints: horizontal=LEFT, vertical=TOP
+        BlendMode: PASS_THROUGH
+
+        --------------------------------------------------------------------------------
+        ID: 164:2133
+        Name: Rectangle 29
+        Type: RECTANGLE
+        Position: x=352.56472778320312, y=1141.7463378906250, width=308.92175292968750, height=30.984733581542969
+        Constraints: horizontal=LEFT, vertical=TOP
+        Fills (1):
+            Type: SOLID, Visible: , Color: rgb(255,255,255), alpha=100%
+        BlendMode: PASS_THROUGH
+
+        --------------------------------------------------------------------------------
+        ID: 164:2134
+        Name: Модуль для раздевалки спортсменов Фрегат ПКП Ф-29
+        Type: TEXT
+        Position: x=364.19104003906250, y=1138.9294433593750, width=290.65216064453125, height=28.167940139770508
+        Constraints: horizontal=LEFT, vertical=TOP
+        Fills (1):
+            Type: SOLID, Visible: , Color: rgb(0,51,128), alpha=100%
+        BlendMode: PASS_THROUGH
+        Characters: Модуль для раздевалки спортсменов Фрегат ПКП Ф-29
+        Style:
+            fontFamily: Calibri
+            fontSize: 14.0
+            fontWeight: 400
+            textAlignHorizontal: LEFT
+            textAlignVertical: TOP
+            lineHeightPx: 17.089843750
+            lineHeightPercent: 100.0
+            letterSpacing: 0.0
+            textCase: 
+
+        --------------------------------------------------------------------------------
+        ID: 164:2135
+        Name: Модуль для обогрева участников и зрителей : Фрегат ПКП Ф-14
+        Type: TEXT
+        Position: x=38.660755157470703, y=1138.9294433593750, width=300.61740112304688, height=29.576335906982422
+        Constraints: horizontal=LEFT, vertical=TOP
+        Fills (1):
+            Type: SOLID, Visible: , Color: rgb(0,51,128), alpha=100%
+        BlendMode: PASS_THROUGH
+        Characters: Модуль для обогрева участников и зрителей : Фрегат ПКП Ф-14
+        Style:
+            fontFamily: Calibri
+            fontSize: 15.0
+            fontWeight: 400
+            textAlignHorizontal: LEFT
+            textAlignVertical: TOP
+            lineHeightPx: 12.0
+            lineHeightPercent: 65.535995483398438
+            letterSpacing: 0.0
+            textCase: 
+
+        --------------------------------------------------------------------------------
+        ID: 164:2136
+        Name: Модуль для размещения судейской коллегии Фрегат ПКП Ф-54
+        Type: TEXT
+        Position: x=670.0, y=1139.0, width=307.0, height=34.0
+        Constraints: horizontal=LEFT, vertical=TOP
+        Fills (1):
+            Type: SOLID, Visible: , Color: rgb(0,51,128), alpha=100%
+        BlendMode: PASS_THROUGH
+        Characters: Модуль для размещения судейской коллегии Фрегат ПКП Ф-54
+        Style:
+            fontFamily: Calibri
+            fontSize: 14.0
+            fontWeight: 400
+            textAlignHorizontal: LEFT
+            textAlignVertical: TOP
+            lineHeightPx: 17.089843750
+            lineHeightPercent: 100.0
+            letterSpacing: 0.0
+            textCase: 
+
+        --------------------------------------------------------------------------------
+        ID: 164:2137
+        Name: Line 1
+        Type: VECTOR
+        Position: x=37.0, y=1134.2043457031248, width=937.50, height=2.27373675443232E-13
+        Constraints: horizontal=LEFT, vertical=TOP
+        Strokes (1):
+            Type: SOLID, Weight: , Color: rgb(0,51,128)
+        BlendMode: PASS_THROUGH
+
+        --------------------------------------------------------------------------------
+        ID: 164:2138
+        Name: Габариты: 9 х 6 х 3,2 м Площадь общая: 54,0 м² • до 35-50 человек в рабочем формате; • до 32 человек для проживания.
+        Type: TEXT
+        Position: x=672.0, y=1298.0, width=280.68695068359375, height=84.503814697265625
+        Constraints: horizontal=LEFT, vertical=TOP
+        Fills (1):
+            Type: SOLID, Visible: , Color: rgb(0,0,0), alpha=100%
+        BlendMode: PASS_THROUGH
+        Characters: Габариты: 9 х 6 х 3,2 м   
+Площадь общая: 54,0 м²   
+• до 35-50 человек в рабочем формате;  
+• до 32 человек для проживания.
+        Style:
+            fontFamily: Inter
+            fontSize: 14.0
+            fontWeight: 300
+            textAlignHorizontal: LEFT
+            textAlignVertical: TOP
+            lineHeightPx: 13.0
+            lineHeightPercent: 76.727027893066406
+            letterSpacing: 0.0
+            textCase: 
+        CharacterStyleOverrides: 124 overrides
+
+        --------------------------------------------------------------------------------
+        ID: 164:2139
+        Name: Line 2
+        Type: VECTOR
+        Position: x=352.56502846957147, y=1134.7041326427650, width=2.4913374972254019, height=221.12277833571557
+        Constraints: horizontal=LEFT, vertical=TOP
+        Strokes (1):
+            Type: SOLID, Weight: , Color: rgb(0,51,128)
+        BlendMode: PASS_THROUGH
+
+        --------------------------------------------------------------------------------
+        ID: 164:2140
+        Name: image 57
+        Type: RECTANGLE
+        Position: x=802.36529541015625, y=1168.6589355468750, width=147.72589111328125, height=102.91017913818359
+        Constraints: horizontal=LEFT, vertical=TOP
+        BlendMode: PASS_THROUGH
+
+        --------------------------------------------------------------------------------
+        ID: 164:2141
+        Name: Габариты: 6 х 4,9 х 2,9 м Площадь общая: 29,4 м² • до 20 человек в рабочем формате; • 6-16 человек для проживания.
+        Type: TEXT
+        Position: x=363.0, y=1299.0, width=300.61740112304688, height=73.236640930175781
+        Constraints: horizontal=LEFT, vertical=TOP
+        Fills (1):
+            Type: SOLID, Visible: , Color: rgb(0,0,0), alpha=100%
+        BlendMode: PASS_THROUGH
+        Characters: Габариты: 6 х 4,9 х 2,9 м   
+Площадь общая: 29,4 м²  
+• до 20 человек в рабочем формате;  
+• 6-16 человек для  проживания.
+        Style:
+            fontFamily: Inter
+            fontSize: 14.0
+            fontWeight: 300
+            textAlignHorizontal: LEFT
+            textAlignVertical: TOP
+            lineHeightPx: 13.0
+            lineHeightPercent: 76.727027893066406
+            letterSpacing: 0.0
+            textCase: 
+        CharacterStyleOverrides: 122 overrides
+
+        --------------------------------------------------------------------------------
+        ID: 164:2142
+        Name: Line 3
+        Type: VECTOR
+        Position: x=662.31732177734375, y=1134.0, width=0.0, height=221.8225097656250
+        Constraints: horizontal=LEFT, vertical=TOP
+        Strokes (1):
+            Type: SOLID, Weight: , Color: rgb(0,51,128)
+        BlendMode: PASS_THROUGH
+
+        --------------------------------------------------------------------------------
+        ID: 164:2143
+        Name: Габариты: 3,5 х 4 х 3 м Площадь общая: 14 м² • 6-8 человек в рабочем формате; • 2-4 человек для проживания.
+        Type: TEXT
+        Position: x=41.0, y=1296.0, width=303.93911743164062, height=76.053428649902344
+        Constraints: horizontal=LEFT, vertical=TOP
+        Fills (1):
+            Type: SOLID, Visible: , Color: rgb(0,0,0), alpha=100%
+        BlendMode: PASS_THROUGH
+        Characters: Габариты: 3,5 х 4 х 3 м   
+Площадь общая: 14 м²   
+• 6-8 человек в рабочем формате;  
+• 2-4 человек для проживания.
+        Style:
+            fontFamily: Inter
+            fontSize: 14.0
+            fontWeight: 300
+            textAlignHorizontal: LEFT
+            textAlignVertical: TOP
+            lineHeightPx: 13.0
+            lineHeightPercent: 76.727027893066406
+            letterSpacing: 0.0
+            textCase: 
+        CharacterStyleOverrides: 115 overrides
+
+      --------------------------------------------------------------------------------
+      ID: 164:2144
+      Name: Rectangle 30
+      Type: RECTANGLE
+      Position: x=354.22650146484375, y=1355.8225097656250, width=308.92175292968750, height=54.927478790283203
+      Constraints: horizontal=LEFT, vertical=TOP
+      Fills (1):
+          Type: SOLID, Visible: , Color: rgb(255,255,255), alpha=100%
+      BlendMode: PASS_THROUGH
+
+      --------------------------------------------------------------------------------
+      ID: 164:2145
+      Name: Line 5
+      Type: LINE
+      Position: x=37.0, y=1410.7499999999998, width=918.46087646484375, height=2.27373675443232E-13
+      Constraints: horizontal=LEFT, vertical=TOP
+      Strokes (1):
+          Type: SOLID, Weight: , Color: rgb(0,51,128)
+      BlendMode: PASS_THROUGH
+
+      --------------------------------------------------------------------------------
+      ID: 164:2146
+      Name: Line 4
+      Type: LINE
+      Position: x=352.56472778320312, y=1355.8225097656250, width=0.0, height=54.927478790283203
+      Constraints: horizontal=LEFT, vertical=TOP
+      Strokes (1):
+          Type: SOLID, Weight: , Color: rgb(0,51,128)
+      BlendMode: PASS_THROUGH
+
+      --------------------------------------------------------------------------------
+      ID: 164:2147
+      Name: Line 6
+      Type: LINE
+      Position: x=661.48645019531250, y=1355.8225097656250, width=0.0, height=53.519084930419922
+      Constraints: horizontal=LEFT, vertical=TOP
+      Strokes (1):
+          Type: SOLID, Weight: , Color: rgb(0,51,128)
+      BlendMode: PASS_THROUGH
+
+      --------------------------------------------------------------------------------
+      ID: 164:2148
+      Name: от 281 100 руб. (базовая с электронасосом до 475 00 руб. (с утеплением)
+      Type: TEXT
+      Position: x=359.20877075195312, y=1355.8225097656250, width=303.93911743164062, height=49.293891906738281
+      Constraints: horizontal=LEFT, vertical=TOP
+      Fills (1):
+          Type: SOLID, Visible: , Color: rgb(0,0,0), alpha=100%
+      BlendMode: PASS_THROUGH
+      Characters: от 281 100 руб. (базовая с электронасосом
+до 475 00 руб. (с утеплением)
+      Style:
+          fontFamily: Calibri
+          fontSize: 14.0
+          fontWeight: 300
+          textAlignHorizontal: LEFT
+          textAlignVertical: TOP
+          lineHeightPx: 13.0
+          lineHeightPercent: 76.068572998046875
+          letterSpacing: 0.0
+          textCase: 
+
+      --------------------------------------------------------------------------------
+      ID: 164:2149
+      Name: от 177 400 руб. (базовая с электронасосом) до 321 000 руб. (утепленная)
+      Type: TEXT
+      Position: x=38.660755157470703, y=1355.8225097656250, width=308.92175292968750, height=54.927478790283203
+      Constraints: horizontal=LEFT, vertical=TOP
+      Fills (1):
+          Type: SOLID, Visible: , Color: rgb(0,0,0), alpha=100%
+      BlendMode: PASS_THROUGH
+      Characters: от 177 400 руб. (базовая с электронасосом)  
+до 321 000 руб. (утепленная)
+      Style:
+          fontFamily: Calibri
+          fontSize: 14.0
+          fontWeight: 300
+          textAlignHorizontal: LEFT
+          textAlignVertical: TOP
+          lineHeightPx: 13.0
+          lineHeightPercent: 76.068572998046875
+          letterSpacing: 0.0
+          textCase: 
+
+      --------------------------------------------------------------------------------
+      ID: 164:2150
+      Name: от 529 500 руб. (базовая с электронасосом) до 776 000 руб. (утепленная)
+      Type: TEXT
+      Position: x=678.09600830078125, y=1358.6392822265625, width=284.00869750976562, height=54.927478790283203
+      Constraints: horizontal=LEFT, vertical=TOP
+      Fills (1):
+          Type: SOLID, Visible: , Color: rgb(0,0,0), alpha=100%
+      BlendMode: PASS_THROUGH
+      Characters: от 529 500 руб. (базовая с электронасосом)  
+до 776 000 руб. (утепленная)
+      Style:
+          fontFamily: Calibri
+          fontSize: 14.0
+          fontWeight: 300
+          textAlignHorizontal: LEFT
+          textAlignVertical: TOP
+          lineHeightPx: 13.0
+          lineHeightPercent: 76.068572998046875
+          letterSpacing: 0.0
+          textCase: 
+
+    --------------------------------------------------------------------------------
+    ID: 164:2151
+    Name: DSC00496 1
+    Type: RECTANGLE
+    Position: x=490.0, y=1173.0, width=172.0, height=115.0
+    Constraints: horizontal=LEFT, vertical=TOP
+    Fills (1):
+        Type: IMAGE, Visible: , imageRef: b4c00115f6e86c57e9560ae012baec9b9d0a1880
+    BlendMode: PASS_THROUGH
+
+    --------------------------------------------------------------------------------
+    ID: 164:2152
+    Name: значок для многофункциональности-Photoroom 2
+    Type: RECTANGLE
+    Position: x=548.26989746093750, y=826.302246093750, width=32.189773559570312, height=18.312404632568359
+    Constraints: horizontal=LEFT, vertical=TOP
+    Fills (6):
+        Type: IMAGE, Visible: , imageRef: 1fd3a9ef1f42dda4e9524c8141d7082b3d863604
+        Type: IMAGE, Visible: , imageRef: 1fd3a9ef1f42dda4e9524c8141d7082b3d863604
+        Type: IMAGE, Visible: , imageRef: 1fd3a9ef1f42dda4e9524c8141d7082b3d863604
+        Type: IMAGE, Visible: , imageRef: 1fd3a9ef1f42dda4e9524c8141d7082b3d863604
+        Type: IMAGE, Visible: , imageRef: 1fd3a9ef1f42dda4e9524c8141d7082b3d863604
+        Type: IMAGE, Visible: , imageRef: 1fd3a9ef1f42dda4e9524c8141d7082b3d863604
+    BlendMode: PASS_THROUGH
+
+    --------------------------------------------------------------------------------
+    ID: 164:2153
+    Name: значок для многофункциональности-Photoroom 3
+    Type: RECTANGLE
+    Position: x=548.0, y=878.0, width=32.189773559570312, height=18.312404632568359
+    Constraints: horizontal=LEFT, vertical=TOP
+    Fills (6):
+        Type: IMAGE, Visible: , imageRef: 1fd3a9ef1f42dda4e9524c8141d7082b3d863604
+        Type: IMAGE, Visible: , imageRef: 1fd3a9ef1f42dda4e9524c8141d7082b3d863604
+        Type: IMAGE, Visible: , imageRef: 1fd3a9ef1f42dda4e9524c8141d7082b3d863604
+        Type: IMAGE, Visible: , imageRef: 1fd3a9ef1f42dda4e9524c8141d7082b3d863604
+        Type: IMAGE, Visible: , imageRef: 1fd3a9ef1f42dda4e9524c8141d7082b3d863604
+        Type: IMAGE, Visible: , imageRef: 1fd3a9ef1f42dda4e9524c8141d7082b3d863604
+    BlendMode: PASS_THROUGH
+
+    --------------------------------------------------------------------------------
+    ID: 164:2154
+    Name: значок для многофункциональности-Photoroom 4
+    Type: RECTANGLE
+    Position: x=548.0, y=923.0, width=32.189773559570312, height=18.312404632568359
+    Constraints: horizontal=LEFT, vertical=TOP
+    Fills (6):
+        Type: IMAGE, Visible: , imageRef: 1fd3a9ef1f42dda4e9524c8141d7082b3d863604
+        Type: IMAGE, Visible: , imageRef: 1fd3a9ef1f42dda4e9524c8141d7082b3d863604
+        Type: IMAGE, Visible: , imageRef: 1fd3a9ef1f42dda4e9524c8141d7082b3d863604
+        Type: IMAGE, Visible: , imageRef: 1fd3a9ef1f42dda4e9524c8141d7082b3d863604
+        Type: IMAGE, Visible: , imageRef: 1fd3a9ef1f42dda4e9524c8141d7082b3d863604
+        Type: IMAGE, Visible: , imageRef: 1fd3a9ef1f42dda4e9524c8141d7082b3d863604
+    BlendMode: PASS_THROUGH
+
+    --------------------------------------------------------------------------------
+    ID: 164:2155
+    Name: значок для многофункциональности-Photoroom 5
+    Type: RECTANGLE
+    Position: x=548.0, y=951.0, width=32.189773559570312, height=18.312404632568359
+    Constraints: horizontal=LEFT, vertical=TOP
+    Fills (6):
+        Type: IMAGE, Visible: , imageRef: 1fd3a9ef1f42dda4e9524c8141d7082b3d863604
+        Type: IMAGE, Visible: , imageRef: 1fd3a9ef1f42dda4e9524c8141d7082b3d863604
+        Type: IMAGE, Visible: , imageRef: 1fd3a9ef1f42dda4e9524c8141d7082b3d863604
+        Type: IMAGE, Visible: , imageRef: 1fd3a9ef1f42dda4e9524c8141d7082b3d863604
+        Type: IMAGE, Visible: , imageRef: 1fd3a9ef1f42dda4e9524c8141d7082b3d863604
+        Type: IMAGE, Visible: , imageRef: 1fd3a9ef1f42dda4e9524c8141d7082b3d863604
+    BlendMode: PASS_THROUGH
+
+    --------------------------------------------------------------------------------
+    ID: 164:2156
+    Name: значок для многофункциональности-Photoroom 6
+    Type: RECTANGLE
+    Position: x=548.0, y=998.0, width=32.189773559570312, height=18.312404632568359
+    Constraints: horizontal=LEFT, vertical=TOP
+    Fills (6):
+        Type: IMAGE, Visible: , imageRef: 1fd3a9ef1f42dda4e9524c8141d7082b3d863604
+        Type: IMAGE, Visible: , imageRef: 1fd3a9ef1f42dda4e9524c8141d7082b3d863604
+        Type: IMAGE, Visible: , imageRef: 1fd3a9ef1f42dda4e9524c8141d7082b3d863604
+        Type: IMAGE, Visible: , imageRef: 1fd3a9ef1f42dda4e9524c8141d7082b3d863604
+        Type: IMAGE, Visible: , imageRef: 1fd3a9ef1f42dda4e9524c8141d7082b3d863604
+        Type: IMAGE, Visible: , imageRef: 1fd3a9ef1f42dda4e9524c8141d7082b3d863604
+    BlendMode: PASS_THROUGH
+
+    --------------------------------------------------------------------------------
+    ID: 164:2157
+    Name: значок для многофункциональности-Photoroom 7
+    Type: RECTANGLE
+    Position: x=548.0, y=1051.0, width=32.189773559570312, height=18.312404632568359
+    Constraints: horizontal=LEFT, vertical=TOP
+    Fills (6):
+        Type: IMAGE, Visible: , imageRef: 1fd3a9ef1f42dda4e9524c8141d7082b3d863604
+        Type: IMAGE, Visible: , imageRef: 1fd3a9ef1f42dda4e9524c8141d7082b3d863604
+        Type: IMAGE, Visible: , imageRef: 1fd3a9ef1f42dda4e9524c8141d7082b3d863604
+        Type: IMAGE, Visible: , imageRef: 1fd3a9ef1f42dda4e9524c8141d7082b3d863604
+        Type: IMAGE, Visible: , imageRef: 1fd3a9ef1f42dda4e9524c8141d7082b3d863604
+        Type: IMAGE, Visible: , imageRef: 1fd3a9ef1f42dda4e9524c8141d7082b3d863604
+    BlendMode: PASS_THROUGH
+
+    --------------------------------------------------------------------------------
+    ID: 164:2158
+    Name: Group 14
+    Type: GROUP
+    Position: x=38.999523162841797, y=1173.0, width=936.0, height=493.0
+    Constraints: horizontal=LEFT, vertical=TOP
+    BlendMode: PASS_THROUGH
+    Children: 15
+
+      --------------------------------------------------------------------------------
+      ID: 164:2159
+      Name: image 71
+      Type: RECTANGLE
+      Position: x=79.999526977539062, y=1513.0, width=119.0, height=86.0
+      Constraints: horizontal=LEFT, vertical=TOP
+      Fills (1):
+          Type: IMAGE, Visible: , imageRef: 59e4b147085272531f74c1eda362cb4ebdddba5d
+      BlendMode: PASS_THROUGH
+
+      --------------------------------------------------------------------------------
+      ID: 164:2160
+      Name: температурный режим
+      Type: TEXT
+      Position: x=38.999523162841797, y=1472.0, width=210.93043518066406, height=21.125953674316406
+      Constraints: horizontal=LEFT, vertical=TOP
+      Fills (1):
+          Type: SOLID, Visible: , Color: rgb(0,0,0), alpha=100%
+      BlendMode: PASS_THROUGH
+      Characters: температурный
+режим
+      Style:
+          fontFamily: Calibri
+          fontSize: 20.0
+          fontWeight: 300
+          textAlignHorizontal: CENTER
+          textAlignVertical: TOP
+          lineHeightPx: 24.41406250
+          lineHeightPercent: 100.0
+          letterSpacing: 0.0
+          textCase: 
+
+      --------------------------------------------------------------------------------
+      ID: 164:2161
+      Name: скорость ветра
+      Type: TEXT
+      Position: x=261.999511718750, y=1472.0, width=129.54783630371094, height=32.393127441406250
+      Constraints: horizontal=LEFT, vertical=TOP
+      Fills (1):
+          Type: SOLID, Visible: , Color: rgb(0,0,0), alpha=100%
+      BlendMode: PASS_THROUGH
+      Characters: скорость
+ветра
+      Style:
+          fontFamily: Calibri
+          fontSize: 20.0
+          fontWeight: 300
+          textAlignHorizontal: CENTER
+          textAlignVertical: TOP
+          lineHeightPx: 24.41406250
+          lineHeightPercent: 100.0
+          letterSpacing: 0.0
+          textCase: 
+
+      --------------------------------------------------------------------------------
+      ID: 164:2162
+      Name: image 82
+      Type: RECTANGLE
+      Position: x=473.999511718750, y=1517.0, width=93.0, height=93.0
+      Constraints: horizontal=LEFT, vertical=TOP
+      Fills (1):
+          Type: IMAGE, Visible: , imageRef: 696b06014f48cf26150f7649785cf60b5688ea52
+      BlendMode: PASS_THROUGH
+
+      --------------------------------------------------------------------------------
+      ID: 164:2163
+      Name: до 25 кг/м²
+      Type: TEXT
+      Position: x=489.999511718750, y=1611.0, width=71.0, height=10.0
+      Constraints: horizontal=LEFT, vertical=TOP
+      Fills (1):
+          Type: SOLID, Visible: , Color: rgb(0,0,0), alpha=100%
+      BlendMode: PASS_THROUGH
+      Characters: до 25 кг/м²
+      Style:
+          fontFamily: Calibri
+          fontSize: 14.0
+          fontWeight: 300
+          textAlignHorizontal: CENTER
+          textAlignVertical: TOP
+          lineHeightPx: 7.0
+          lineHeightPercent: 40.959999084472656
+          letterSpacing: 0.0
+          textCase: 
+
+      --------------------------------------------------------------------------------
+      ID: 164:2164
+      Name: снеговые нагрузки
+      Type: TEXT
+      Position: x=441.999511718750, y=1466.0, width=156.12173461914062, height=32.393127441406250
+      Constraints: horizontal=LEFT, vertical=TOP
+      Fills (1):
+          Type: SOLID, Visible: , Color: rgb(0,0,0), alpha=100%
+      BlendMode: PASS_THROUGH
+      Characters: снеговые
+нагрузки
+      Style:
+          fontFamily: Calibri
+          fontSize: 20.0
+          fontWeight: 300
+          textAlignHorizontal: CENTER
+          textAlignVertical: TOP
+          lineHeightPx: 24.41406250
+          lineHeightPercent: 100.0
+          letterSpacing: 0.0
+          textCase: 
+
+      --------------------------------------------------------------------------------
+      ID: 164:2165
+      Name: атмосферное давление
+      Type: TEXT
+      Position: x=805.999511718750, y=1461.0, width=114.59999847412109, height=32.393127441406250
+      Constraints: horizontal=LEFT, vertical=TOP
+      Fills (1):
+          Type: SOLID, Visible: , Color: rgb(0,0,0), alpha=100%
+      BlendMode: PASS_THROUGH
+      Characters: атмосферное
+давление
+      Style:
+          fontFamily: Calibri
+          fontSize: 20.0
+          fontWeight: 300
+          textAlignHorizontal: CENTER
+          textAlignVertical: TOP
+          lineHeightPx: 24.41406250
+          lineHeightPercent: 100.0
+          letterSpacing: 0.0
+          textCase: 
+
+      --------------------------------------------------------------------------------
+      ID: 164:2166
+      Name: от -40°C до +50°C
+      Type: TEXT
+      Position: x=79.999526977539062, y=1611.0, width=113.0, height=10.0
+      Constraints: horizontal=LEFT, vertical=TOP
+      Fills (1):
+          Type: SOLID, Visible: , Color: rgb(0,0,0), alpha=100%
+      BlendMode: PASS_THROUGH
+      Characters: от -40°C до +50°C
+      Style:
+          fontFamily: Calibri
+          fontSize: 14.0
+          fontWeight: 300
+          textAlignHorizontal: CENTER
+          textAlignVertical: TOP
+          lineHeightPx: 7.0
+          lineHeightPercent: 40.959999084472656
+          letterSpacing: 0.0
+          textCase: 
+
+      --------------------------------------------------------------------------------
+      ID: 164:2167
+      Name: image 74
+      Type: RECTANGLE
+      Position: x=822.999511718750, y=1503.0, width=83.0, height=86.0
+      Constraints: horizontal=LEFT, vertical=TOP
+      Fills (1):
+          Type: IMAGE, Visible: , imageRef: c8da4f4a449fedbe71027b40cbc5d8062d47cd01
+      BlendMode: PASS_THROUGH
+
+      --------------------------------------------------------------------------------
+      ID: 164:2168
+      Name: до 3000 м над уровнем моря
+      Type: TEXT
+      Position: x=780.999511718750, y=1604.0, width=167.0, height=49.0
+      Constraints: horizontal=LEFT, vertical=TOP
+      Fills (1):
+          Type: SOLID, Visible: , Color: rgb(0,0,0), alpha=100%
+      BlendMode: PASS_THROUGH
+      Characters: до 3000 м
+над уровнем моря
+      Style:
+          fontFamily: Calibri
+          fontSize: 14.0
+          fontWeight: 300
+          textAlignHorizontal: CENTER
+          textAlignVertical: TOP
+          lineHeightPx: 14.0
+          lineHeightPercent: 81.919998168945312
+          letterSpacing: 0.0
+          textCase: 
+
+      --------------------------------------------------------------------------------
+      ID: 164:2169
+      Name: image 72
+      Type: RECTANGLE
+      Position: x=293.999511718750, y=1519.0, width=80.0, height=77.0
+      Constraints: horizontal=LEFT, vertical=TOP
+      Fills (1):
+          Type: IMAGE, Visible: , imageRef: f8e83a3dc068e17b486de365690b707e50a8a7ce
+      BlendMode: PASS_THROUGH
+
+      --------------------------------------------------------------------------------
+      ID: 164:2170
+      Name: image 75
+      Type: RECTANGLE
+      Position: x=642.999511718750, y=1510.0, width=94.0, height=85.0
+      Constraints: horizontal=LEFT, vertical=TOP
+      Fills (1):
+          Type: IMAGE, Visible: , imageRef: 3371b233fcabcdf7260017c630b56bdc244502fd
+      BlendMode: PASS_THROUGH
+
+      --------------------------------------------------------------------------------
+      ID: 164:2171
+      Name: интенсивностью до 5 мм/мин
+      Type: TEXT
+      Position: x=627.999511718750, y=1605.0, width=151.0, height=31.0
+      Constraints: horizontal=LEFT, vertical=TOP
+      Fills (1):
+          Type: SOLID, Visible: , Color: rgb(0,0,0), alpha=100%
+      BlendMode: PASS_THROUGH
+      Characters: интенсивностью
+до 5 мм/мин
+      Style:
+          fontFamily: Calibri
+          fontSize: 14.0
+          fontWeight: 300
+          textAlignHorizontal: CENTER
+          textAlignVertical: TOP
+          lineHeightPx: 13.0
+          lineHeightPercent: 76.068572998046875
+          letterSpacing: 0.0
+          textCase: 
+
+      --------------------------------------------------------------------------------
+      ID: 164:2172
+      Name: до 25 м/с (без пыли), до 20 м/с, при пылевой насыщенности 5 гр./м³
+      Type: TEXT
+      Position: x=215.99952697753906, y=1604.0, width=223.0, height=62.0
+      Constraints: horizontal=LEFT, vertical=TOP
+      Fills (1):
+          Type: SOLID, Visible: , Color: rgb(0,0,0), alpha=100%
+      BlendMode: PASS_THROUGH
+      Characters: до 25 м/с (без пыли),
+до 20 м/с, 
+при пылевой насыщенности 5 гр./м³
+      Style:
+          fontFamily: Calibri
+          fontSize: 14.0
+          fontWeight: 300
+          textAlignHorizontal: CENTER
+          textAlignVertical: TOP
+          lineHeightPx: 13.0
+          lineHeightPercent: 76.068572998046875
+          letterSpacing: 0.0
+          textCase: 
+
+      --------------------------------------------------------------------------------
+      ID: 164:2173
+      Name: image 83
+      Type: RECTANGLE
+      Position: x=801.999511718750, y=1173.0, width=173.0, height=115.0
+      Constraints: horizontal=LEFT, vertical=TOP
+      Fills (1):
+          Type: IMAGE, Visible: , imageRef: 9caf0718b3890b0bfad3018172c4e4479fc5bef7
+      BlendMode: PASS_THROUGH
+
+    --------------------------------------------------------------------------------
+    ID: 164:2174
+    Name: image 79
+    Type: RECTANGLE
+    Position: x=37.0, y=1173.0, width=152.0, height=114.0
+    Constraints: horizontal=LEFT, vertical=TOP
+    Fills (1):
+        Type: IMAGE, Visible: , imageRef: 4982fb4ffde818669417055c5a6a0e58ddf8ac45
+    BlendMode: PASS_THROUGH
+
+    --------------------------------------------------------------------------------
+    ID: 164:2175
+    Name: image 80
+    Type: RECTANGLE
+    Position: x=353.0, y=1173.0, width=153.0, height=115.0
+    Constraints: horizontal=LEFT, vertical=TOP
+    Fills (1):
+        Type: IMAGE, Visible: , imageRef: 9847e1be8b2297f289e82cf229c6043ff00bb939
+    BlendMode: PASS_THROUGH
+
+    --------------------------------------------------------------------------------
+    ID: 164:2176
+    Name: image 81
+    Type: RECTANGLE
+    Position: x=663.0, y=1173.0, width=149.0, height=115.0
+    Constraints: horizontal=LEFT, vertical=TOP
+    Fills (1):
+        Type: IMAGE, Visible: , imageRef: dde085517d02e6bf4980ce2fe6326b9c9d20eb6f
+    BlendMode: PASS_THROUGH
+
+  --------------------------------------------------------------------------------
+  ID: 164:2177
+  Name: btn-catalog
+  Type: GROUP
+  Position: x=128.0, y=1660.0, width=720.0, height=70.0
+  Constraints: horizontal=LEFT, vertical=TOP
+  CornerRadius: 20.0
+  BlendMode: PASS_THROUGH
+  Children: 2
+
+    --------------------------------------------------------------------------------
+    ID: 164:2178
+    Name: Rectangle 31
+    Type: RECTANGLE
+    Position: x=128.0, y=1660.0, width=720.0, height=70.0
+    Constraints: horizontal=LEFT, vertical=TOP
+    Fills (1):
+        Type: SOLID, Visible: , Color: rgb(0,51,128), alpha=100%
+    CornerRadius: 20.0
+    BlendMode: PASS_THROUGH
+
+    --------------------------------------------------------------------------------
+    ID: 164:2179
+    Name: КАТАЛОГ ПНЕВМОКАРКАСНЫХ МОДУЛЕЙ
+    Type: TEXT
+    Position: x=188.0, y=1688.0, width=599.0, height=35.0
+    Constraints: horizontal=LEFT, vertical=TOP
+    Fills (1):
+        Type: SOLID, Visible: , Color: rgb(255,255,255), alpha=100%
+    BlendMode: PASS_THROUGH
+    Characters: КАТАЛОГ ПНЕВМОКАРКАСНЫХ МОДУЛЕЙ
+    Style:
+        fontFamily: Calibri
+        fontSize: 32.0
+        fontWeight: 700
+        textAlignHorizontal: CENTER
+        textAlignVertical: TOP
+        lineHeightPx: 14.0
+        lineHeightPercent: 35.840000152587891
+        letterSpacing: 0.0
+        textCase: 
+
+  --------------------------------------------------------------------------------
+  ID: 164:2180
+  Name: btn-catalog
+  Type: GROUP
+  Position: x=40.0, y=681.0, width=853.0, height=70.0
+  Constraints: horizontal=LEFT, vertical=TOP
+  CornerRadius: 20.0
+  BlendMode: PASS_THROUGH
+  Children: 2
+
+    --------------------------------------------------------------------------------
+    ID: 164:2181
+    Name: Rectangle 31
+    Type: RECTANGLE
+    Position: x=40.0, y=681.0, width=853.0, height=70.0
+    Constraints: horizontal=LEFT, vertical=TOP
+    Fills (1):
+        Type: SOLID, Visible: , Color: rgb(0,51,128), alpha=100%
+    Strokes (1):
+        Type: SOLID, Weight: , Color: rgb(255,255,255)
+    CornerRadius: 20.0
+    BlendMode: PASS_THROUGH
+
+    --------------------------------------------------------------------------------
+    ID: 164:2182
+    Name: ПЕРЕЙТИ В КАТАЛОГ ПНЕВМОКАРКАСНЫХ МОДУЛЕЙ
+    Type: TEXT
+    Position: x=82.0, y=709.0, width=768.0, height=35.0
+    Constraints: horizontal=LEFT, vertical=TOP
+    Fills (1):
+        Type: SOLID, Visible: , Color: rgb(255,255,255), alpha=100%
+    BlendMode: PASS_THROUGH
+    Characters: ПЕРЕЙТИ В КАТАЛОГ ПНЕВМОКАРКАСНЫХ МОДУЛЕЙ
+    Style:
+        fontFamily: Calibri
+        fontSize: 32.0
+        fontWeight: 700
+        textAlignHorizontal: CENTER
+        textAlignVertical: TOP
+        lineHeightPx: 14.0
+        lineHeightPercent: 35.840000152587891
+        letterSpacing: 0.0
+        textCase: 
+
+  --------------------------------------------------------------------------------
+  ID: 164:2184
+  Name: product
+  Type: RECTANGLE
+  Position: x=38.0, y=1751.0, width=949.0, height=466.0
+  Constraints: horizontal=LEFT, vertical=TOP
+  Fills (1):
+      Type: IMAGE, Visible: , imageRef: f0096791855fb5a58d0e17402bd79d4dd7785fc0
+  BlendMode: PASS_THROUGH
+
+  --------------------------------------------------------------------------------
+  ID: 164:2185
+  Name: contact
+  Type: TEXT
+  Position: x=38.0, y=2237.0, width=925.0, height=34.0
+  Constraints: horizontal=LEFT, vertical=TOP
+  Fills (1):
+      Type: SOLID, Visible: , Color: rgb(0,51,128), alpha=100%
+  BlendMode: PASS_THROUGH
+  Characters: Чтобы сделать заказ, ПОЗВОНИТЕ по тел. +7 (812) 667-8-678 или НАПИШИТЕ на modul@fregat-boats.ru
+  Style:
+      fontFamily: Calibri
+      fontSize: 21.0
+      fontWeight: 400
+      textAlignHorizontal: LEFT
+      textAlignVertical: TOP
+      lineHeightPx: 40.0
+      lineHeightPercent: 156.03808593750
+      letterSpacing: 0.0
+      textCase: 
+  CharacterStyleOverrides: 95 overrides
+
+================================================================================
+END OF REPORT
+================================================================================
